@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/shoupiaoxitong"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="dom4j-1.6.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/../shoupiaoxitong/lib/dom4j-1.6.1.jar!/"/>
+	</lib>
+	<lib name="jaxen-1.1-beta-6.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/../shoupiaoxitong/lib/jaxen-1.1-beta-6.jar!/"/>
+	</lib>
+</component>
