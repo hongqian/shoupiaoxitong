@@ -41,7 +41,7 @@ public abstract class Ticket implements GetTicket{
         重写GetTicket内的print方法打印全票
          */
     @Override
-    public void print(String type,String zname) {
+    public void print(String type,String zname,double price) {
         /*
         将电影票写入到src文件夹下
          */
@@ -62,7 +62,14 @@ public abstract class Ticket implements GetTicket{
             sw.println(" 电影名：" + this.schedule.getMovie().getName());
             sw.println(" 时间：  " + this.schedule.getMovie().getTime());
             sw.println(" 座位号：" + this.getSeat());
-            sw.println(" 价格：  " + this.schedule.getMovie().getPrice());
+
+
+            if(type.equals("(学生票)")){
+            sw.println(" 价格：  " + price);
+            }else {
+                sw.println(" 价格：  " + this.schedule.getMovie().getPrice());
+            }
+
             if(type.equals("(赠票)")){
             sw.println(" 赠送人： " +zname);
             }
@@ -75,7 +82,12 @@ public abstract class Ticket implements GetTicket{
             System.out.println(" 电影名： " + this.schedule.getMovie().getName());
             System.out.println(" 时间:   " + this.schedule.getMovie().getTime());
             System.out.println(" 座位号: " + this.getSeat());
-            System.out.println(" 价格:   " + schedule.getMovie().getPrice());
+
+            if(type.equals("(学生票)")){
+            System.out.println(" 价格:   " + price);
+            }else {
+                System.out.println(" 价格:   " + schedule.getMovie().getPrice());
+            }
             if(type.equals("(赠票)")){
             System.out.println(" 赠送人： " +zname);
             }

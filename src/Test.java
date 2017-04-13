@@ -23,6 +23,7 @@ public class Test {
     private String         name;//输入的电影名
     private String         index;//票类型的索引
     private String         zName;//赠送人名
+    private double         price;
 
 
     public static void main(String[] args) {
@@ -41,7 +42,7 @@ public class Test {
             movieTime();
             movieSeat();
             Type();
-            TicketFactory.getTicket(index, zName, schedule);
+            TicketFactory.getTicket(index, zName,price, schedule);
             //选择购票结束后选择是否继续
             System.out.println("输入0继续购票，其它键退出");
             sc = new Scanner(System.in);
@@ -77,8 +78,7 @@ public class Test {
                             System.out.println("请输入1到9的整数");
                         } else {
                             //计算并设置学生票价格
-                            schedule.getMovie().setPrice(
-                                    (Double.parseDouble(a) /10)*schedule.getMovie().getPrice());
+                            price=(Double.parseDouble(a) /10)*schedule.getMovie().getPrice();
                             break;
                         }
                     }
