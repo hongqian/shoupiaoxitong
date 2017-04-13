@@ -6,8 +6,8 @@ import java.io.*;
  * Created by 59480 on 2017/4/8.
  */
 public class Seat implements Serializable{
-
-    private  String seatNum;//座位号
+    private static final long       serialVersionUID = 1L;
+    private              String     seatNum;//座位号
 
     public   Seat() {
     }

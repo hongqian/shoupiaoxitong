@@ -6,13 +6,14 @@ import java.io.Serializable;
  * Created by 59480 on 2017/4/8.
  */
 public class Movie implements Serializable{
-    private String        Name;//电影名字
-    private String        Poster;//海报
-    private String        Director;//导演
-    private String        Actor;//演员
-    private double        price;//价格
-    private Type          type;//类型
-    private String        time;//时间
+    private static final long      serialVersionUID = 1L;
+    private              String    Name;//电影名字
+    private              String    Poster;//海报
+    private              String    Director;//导演
+    private              String    Actor;//演员
+    private              double    price;//价格
+    private              Type      type;//类型
+    private              String    time;//时间
     public Movie() {
     }
 

@@ -8,9 +8,9 @@ import java.util.List;
  */
 public class Schedule implements Serializable{
 
-    private static final long serialVersionUID = 1L;
-    private              Seat seat;
-    private              Movie movie;
+    private static final long   serialVersionUID = 1L;
+    private              Seat   seat;
+    private              Movie  movie;
 
     public Schedule() {
         super();
