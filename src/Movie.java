@@ -6,28 +6,38 @@ import java.io.Serializable;
  * Created by 59480 on 2017/4/8.
  */
 public class Movie implements Serializable{
-    private String Name;//电影名字
-    private String Poster;//海报
-    private String Director;//导演
-    private String Actor;//演员
-    private double price;//价格
-    private Type type;//类型
-    private String time;//时间
+    private String        Name;//电影名字
+    private String        Poster;//海报
+    private String        Director;//导演
+    private String        Actor;//演员
+    private double        price;//价格
+    private Type          type;//类型
+    private String        time;//时间
     public Movie() {
     }
 
-    public Movie(String name, String time) {
-        Name = name;
-        this.time = time;
+    public Movie(
+            String        name,
+            String        time)
+    {
+            Name        = name;
+            this.time   = time;
     }
 
-    public Movie(String name, String poster, String director, String actor, double price, Type type) {
-        Name = name;
-        Poster = poster;
-        Director = director;
-        Actor = actor;
-        this.price = price;
-        this.type = type;
+    public Movie(
+            String        name,
+            String        poster,
+            String        director,
+            String        actor,
+            double        price,
+            Type          type)
+    {
+            Name        = name;
+            Poster      = poster;
+            Director    = director;
+            Actor       = actor;
+            this.price  = price;
+            this.type   = type;
 
     }
 

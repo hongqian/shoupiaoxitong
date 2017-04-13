@@ -1,25 +1,40 @@
+import java.io.IOException;
 
 /**
  * 电影票工厂类
  * Created by 59480 on 2017/4/9.
  */
 public class TicketFactory {
-    private static GetTicket ticket;
-    public static GetTicket getTicket(String i, String zName){
+    private static Ticket ticket;
+    public static void getTicket(
+                String      i,
+                String      zName,
+                Schedule    schedule){
         switch (i){
             case "1"://全票
-                ticket = new Ticket();
+                ticket = new PTTicket();
+                ticket.setSchedule(schedule);//获取电影票信息
+                ticket.setSeat(schedule.getSeat().getSeatNum());//获取座位
+                ticket.print("","");//打印票
                 break;
             case "2"://学生票
                 ticket = new StudentTicket();
+                ticket.setSchedule(schedule);//获取电影票信息
+                ticket.setSeat(schedule.getSeat().getSeatNum());//获取座位
+                ticket.print("(学生票)","");//打印票
                 break;
             case "3"://增票
-                FreeTicket freeTicket=new FreeTicket();
-                freeTicket.setZname(zName);//设置赠送人名字
-                ticket= freeTicket;
+                ticket =new FreeTicket(zName);
+                ticket.setSchedule(schedule);//获取电影票信息
+                ticket.setSeat(schedule.getSeat().getSeatNum());//获取座位
+                ticket.print("(赠票)",zName);//打印票
                 break;
         }
-        return ticket;
+        //将售出票信息写如文件保存
+        try {
+            ObjIO.outputSchedule(schedule);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
-
 }
