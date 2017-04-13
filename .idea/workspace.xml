@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f6de0c-b3c1-464e-933c-de59f808d774" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shoupiaoxitong/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shoupiaoxitong/src/ObjIO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shoupiaoxitong/src/PTTicket.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../shoupiaoxitong/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../shoupiaoxitong/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../shoupiaoxitong/src/FreeTicket.java" afterPath="$PROJECT_DIR$/../shoupiaoxitong/src/FreeTicket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../shoupiaoxitong/src/GetTicket.java" afterPath="$PROJECT_DIR$/../shoupiaoxitong/src/GetTicket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../shoupiaoxitong/src/Movie.java" afterPath="$PROJECT_DIR$/../shoupiaoxitong/src/Movie.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../shoupiaoxitong/src/MyObjectOutputStream.java" afterPath="$PROJECT_DIR$/../shoupiaoxitong/src/MyObjectOutputStream.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../shoupiaoxitong/src/Operationxml.java" afterPath="$PROJECT_DIR$/../shoupiaoxitong/src/Operationxml.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../shoupiaoxitong/src/Schedule.java" afterPath="$PROJECT_DIR$/../shoupiaoxitong/src/Schedule.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../shoupiaoxitong/src/Seat.java" afterPath="$PROJECT_DIR$/../shoupiaoxitong/src/Seat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../shoupiaoxitong/src/StudentTicket.java" afterPath="$PROJECT_DIR$/../shoupiaoxitong/src/StudentTicket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../shoupiaoxitong/src/Test.java" afterPath="$PROJECT_DIR$/../shoupiaoxitong/src/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../shoupiaoxitong/src/Ticket.java" afterPath="$PROJECT_DIR$/../shoupiaoxitong/src/Ticket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../shoupiaoxitong/src/TicketFactory.java" afterPath="$PROJECT_DIR$/../shoupiaoxitong/src/TicketFactory.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../shoupiaoxitong/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,22 +17,48 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/Test.java">
+      <file leaf-file-name="Ticket.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/Ticket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4914">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="638">
+              <caret line="68" column="54" lean-forward="true" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ticket.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/Ticket.java">
+      <file leaf-file-name="Movie.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="68" column="54" lean-forward="true" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
+            <state relative-caret-position="-118">
+              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding>
+                <element signature="method#Movie#0;class#Movie#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentTicket.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/StudentTicket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="9" column="62" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="62" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Seat.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/Seat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <element signature="method#Seat#0;class#Seat#0" expanded="false" />
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,18 +66,58 @@
       <file leaf-file-name="TicketFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/TicketFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1404">
+            <state relative-caret-position="1512">
               <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Operationxml.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Type.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/Type.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Operationxml.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/Operationxml.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3011">
-              <caret line="73" column="43" lean-forward="true" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
+            <state relative-caret-position="1988">
+              <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10962">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PTTicket.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/PTTicket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Schedule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/Schedule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,8 +162,6 @@
         <option value="$PROJECT_DIR$/../shoupiaoxitong/src/NewFile.xml" />
         <option value="$PROJECT_DIR$/../shoupiaoxitong/src/PTTicket.java" />
         <option value="$PROJECT_DIR$/../shoupiaoxitong/src/ObjIO.java" />
-        <option value="$PROJECT_DIR$/../shoupiaoxitong/src/Schedule.java" />
-        <option value="$PROJECT_DIR$/../shoupiaoxitong/src/Seat.java" />
         <option value="$PROJECT_DIR$/../shoupiaoxitong/src/GetTicket.java" />
         <option value="$PROJECT_DIR$/../shoupiaoxitong/src/Movie.java" />
         <option value="$PROJECT_DIR$/../shoupiaoxitong/src/MyObjectOutputStream.java" />
@@ -117,8 +169,10 @@
         <option value="$PROJECT_DIR$/../shoupiaoxitong/src/FreeTicket.java" />
         <option value="$PROJECT_DIR$/../shoupiaoxitong/src/Ticket.java" />
         <option value="$PROJECT_DIR$/../shoupiaoxitong/src/TicketFactory.java" />
-        <option value="$PROJECT_DIR$/../shoupiaoxitong/src/Operationxml.java" />
         <option value="$PROJECT_DIR$/../shoupiaoxitong/src/Test.java" />
+        <option value="$PROJECT_DIR$/../shoupiaoxitong/src/Operationxml.java" />
+        <option value="$PROJECT_DIR$/../shoupiaoxitong/src/Schedule.java" />
+        <option value="$PROJECT_DIR$/../shoupiaoxitong/src/Seat.java" />
       </list>
     </option>
   </component>
@@ -805,12 +859,20 @@
       <workItem from="1491909563369" duration="17000" />
       <workItem from="1492049130213" duration="57000" />
       <workItem from="1492049255326" duration="3169000" />
-      <workItem from="1492086829371" duration="11436000" />
+      <workItem from="1492086829371" duration="11855000" />
     </task>
+    <task id="LOCAL-00001" summary="qw">
+      <created>1492098478858</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1492098478858</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85079000" />
+    <option name="totallyTimeSpent" value="85498000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="0" width="2886" height="1634" extended-state="0" />
@@ -825,13 +887,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24132842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24132842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291513" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31992754" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31992754" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291513" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -893,7 +955,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="qw" />
+    <option name="LAST_COMMIT_MESSAGE" value="qw" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1103,90 +1166,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/ObjIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3132">
-          <caret line="58" column="8" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/Schedule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="54" column="43" lean-forward="true" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/PTTicket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/Seat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="824">
-          <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-          <folding>
-            <element signature="method#Seat#0;class#Seat#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2538">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="method#Movie#0;class#Movie#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/MyObjectOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/FreeTicket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="method#FreeTicket#0;class#FreeTicket#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/StudentTicket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="9" column="62" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/GetTicket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/Type.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1199,34 +1182,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/Operationxml.java">
+    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/FreeTicket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3011">
-          <caret line="73" column="43" lean-forward="true" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
+        <state relative-caret-position="486">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/TicketFactory.java">
+    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/MyObjectOutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        <state relative-caret-position="206">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/Ticket.java">
+    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/ObjIO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="68" column="54" lean-forward="true" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
+        <state relative-caret-position="3294">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/PTTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="method#Movie#0;class#Movie#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/Schedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/Seat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="method#Seat#0;class#Seat#0" expanded="false" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/StudentTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="9" column="62" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4914">
+        <state relative-caret-position="-10962">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="68" column="54" lean-forward="true" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/TicketFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shoupiaoxitong/src/Operationxml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1988">
+          <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
           <folding />
         </state>
       </provider>

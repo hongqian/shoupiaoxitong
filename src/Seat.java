@@ -12,10 +12,6 @@ public class Seat implements Serializable{
     public   Seat() {
     }
 
-    public   Seat(String seatNum) {
-        this.seatNum = seatNum;
-    }
-
     public   String   getSeatNum() {
         return seatNum;
     }

@@ -16,18 +16,6 @@ public class Schedule implements Serializable{
         super();
     }
 
-    public Schedule(
-            Seat          seat,
-            Movie         movie)
-    {
-            this.seat   = seat;
-            this.movie  = movie;
-    }
-
-    public Schedule(Movie movie) {
-        super();
-        this.movie  = movie;
-    }
 
     public Seat getSeat() {
         return seat;
