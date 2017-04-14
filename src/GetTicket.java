@@ -20,5 +20,5 @@ public interface GetTicket {
     /*
     获得对应的票面
      */
-    void print(String type,String zname,double price);
+    void print();
 }

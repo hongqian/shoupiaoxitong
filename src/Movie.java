@@ -6,39 +6,32 @@ import java.io.Serializable;
  * Created by 59480 on 2017/4/8.
  */
 public class Movie implements Serializable{
-    private static final long      serialVersionUID = 1L;
-    private              String    Name;//电影名字
-    private              String    Poster;//海报
-    private              String    Director;//导演
-    private              String    Actor;//演员
-    private              double    price;//价格
-    private              Type      type;//类型
-    private              String    time;//时间
+    private static final long              serialVersionUID = 1L;
+    private              String            name;//电影名字
+    private              String            poster;//海报
+    private              String            director;//导演
+    private              String            actor;//演员
+    private              double            price;//价格
+    private              Type              type;//类型
+    private              String            time;//时间
     public Movie() {
     }
 
-    public Movie(
-            String        name,
-            String        time)
-    {
-            Name        = name;
-            this.time   = time;
-    }
 
     public Movie(
-            String        name,
-            String        poster,
-            String        director,
-            String        actor,
-            double        price,
-            Type          type)
+                         String            name,
+                         String            poster,
+                         String            director,
+                         String            actor,
+                         double            price,
+                         Type              type)
     {
-            Name        = name;
-            Poster      = poster;
-            Director    = director;
-            Actor       = actor;
-            this.price  = price;
-            this.type   = type;
+                         this.name       = name;
+                         this.poster     = poster;
+                         this.director   = director;
+                         this.actor      = actor;
+                         this.price      = price;
+                         this.type       = type;
 
     }
 
@@ -59,35 +52,35 @@ public class Movie implements Serializable{
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 
     public String getPoster() {
-        return Poster;
+        return poster;
     }
 
     public void setPoster(String poster) {
-        Poster = poster;
+        this.poster = poster;
     }
 
     public String getDirector() {
-        return Director;
+        return director;
     }
 
     public void setDirector(String director) {
-        Director = director;
+        this.director = director;
     }
 
     public String getActor() {
-        return Actor;
+        return actor;
     }
 
     public void setActor(String actor) {
-        Actor = actor;
+        this.actor = actor;
     }
 
     public Type getType() {
